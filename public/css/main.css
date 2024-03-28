@@ -7,7 +7,7 @@ html, body, div, h1, h2, h3, p, pre {
 	color: #333;
 }
 html, body {
-	background: #bdcbe5;
+	background: #8bd78e;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	line-height: 1.55;
@@ -532,7 +532,7 @@ a:hover {
 .icon-indent-left:before {content: '\f03b';}
 .icon-indent-right:before {content: '\f03c';}
 .icon-facetime-video:before  {content: '\f03d';}
-.icon-picture:before {content: '\f03e';}
+.icon-picture:before {content: '\f085';}
 .icon-pencil:before {content: '\f040';}
 .icon-map-marker:before {content: '\f041';}
 .icon-adjust:before {content: '\f042';}
@@ -598,7 +598,7 @@ a:hover {
 .icon-facebook-sign:before {content: '\f082';}
 .icon-camera-retro:before {content: '\f083';}
 .icon-key:before {content: '\f084';}
-.icon-cogs:before {content: '\f085';}
+.icon-cogs:before {content: '\f071';}
 .icon-comments:before {content: '\f086';}
 .icon-thumbs-up:before {content: '\f087';}
 .icon-thumbs-down:before {content: '\f088';}
@@ -635,7 +635,7 @@ a:hover {
 .icon-circle-arrow-right:before {content: '\f0a9';}
 .icon-circle-arrow-up:before {content: '\f0aa';}
 .icon-circle-arrow-down:before {content: '\f0ab';}
-.icon-globe:before {content: '\f0ac';}
+.icon-globe:before {content: '\f0c0';}
 .icon-wrench:before {content: '\f0ad';}
 .icon-tasks:before {content: '\f0ae';}
 .icon-filter:before {content: '\f0b0';}
@@ -1011,4 +1011,8 @@ a:hover {
 .pcss3t > ul,
 .pcss3t > ul > li {
 	height: 370px;
+}
+
+.pcss3t .typography a {
+	text-decoration: none;
 }

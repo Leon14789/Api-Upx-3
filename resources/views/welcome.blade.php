@@ -16,43 +16,64 @@
 			<!-- tabs -->
 			<div class="pcss3t pcss3t-effect-scale pcss3t-theme-1">
 				<input type="radio" name="pcss3t" checked  id="tab1"class="tab-content-first">
-				<label for="tab1"><i class="icon-bolt"></i>Seja Bem Vindo</label>
+				<label for="tab1"><i class="icon-bolt"></i>Apresentação</label>
 				
 				<input type="radio" name="pcss3t" id="tab2" class="tab-content-2">
-				<label for="tab2"><i class="icon-picture"></i>da Vinci</label>
+				<label for="tab2"><i class="icon-picture"></i>REQUISITOS</label>
 				
 				<input type="radio" name="pcss3t" id="tab3" class="tab-content-3">
-				<label for="tab3"><i class="icon-cogs"></i>Einstein</label>
+				<label for="tab3"><i class="icon-cogs"></i>Ajuda</label>
 				
 				<input type="radio" name="pcss3t" id="tab5" class="tab-content-last">
-				<label for="tab5"><i class="icon-globe"></i>Newton</label>
+				<label for="tab5"><i class="icon-globe"></i>Grupo</label>
 				
 				<ul>
 					<li class="tab-content tab-content-first typography">
-						<h1>Nikola Tesla</h1>
-						<p>Serbian-American inventor, electrical engineer, mechanical engineer, physicist, and futurist best known for his contributions to the design of the modern alternating current (AC) electrical supply system.</p>
-						<p>Tesla started working in the telephony and electrical fields before emigrating to the United States in 1884 to work for Thomas Edison. He soon struck out on his own with financial backers, setting up laboratories/companies to develop a range of electrical devices. His patented AC induction motor and transformer were licensed by George Westinghouse, who also hired Tesla as a consultant to help develop an alternating current system. Tesla is also known for his high-voltage, high-frequency power experiments in New York and Colorado Springs which included patented devices and theoretical work used in the invention of radio communication, for his X-ray experiments, and for his ill-fated attempt at intercontinental wireless transmission in his unfinished Wardenclyffe Tower project.</p>
+						<h1>Bem-vindo à API do UPX III! </h1>
+						<p>Esta é a API oficial de UPX III. Desenvolvida utilizando PHP e Laravel, duas tecnologias robustas e altamente eficientes, nossa API oferece uma experiência de integração suave e poderosa para os desenvolvedores.</p>
+						<p>Utilizamos o MySQL como nosso banco de dados principal, garantindo desempenho confiável e armazenamento seguro para todas as suas informações. Com a nossa API, você terá acesso a uma ampla gama de recursos e funcionalidades.</p>	
 					</li>
 					
 					<li class="tab-content tab-content-2 typography">
-						<h1>Leonardo da Vinci</h1>
-						<p>Italian Renaissance polymath: painter, sculptor, architect, musician, mathematician, engineer, inventor, anatomist, geologist, cartographer, botanist, and writer. His genius, perhaps more than that of any other figure, epitomized the Renaissance humanist ideal. Leonardo has often been described as the archetype of the Renaissance Man, a man of "unquenchable curiosity" and "feverishly inventive imagination". He is widely considered to be one of the greatest painters of all time and perhaps the most diversely talented person ever to have lived. According to art historian Helen Gardner, the scope and depth of his interests were without precedent and "his mind and personality seem to us superhuman, the man himself mysterious and remote". Marco Rosci states that while there is much speculation about Leonardo, his vision of the world is essentially logical rather than mysterious, and that the empirical methods he employed were unusual for his time.</p>
-						<p class="text-right"><em>Find out more about Leonardo da Vinci from <a href="http://en.wikipedia.org/wiki/Leonardo_da_Vinci" target="_blank">Wikipedia</a>.</em></p>
+						<h1>Requisitos para Rodar a API</h1>
+						<p>Para que o projeto da API rode corretamente, é necessário garantir que você tenha instalado os seguintes componentes:</p>
+						<ul>
+						<li>PHP</li>
+						<li>Composer</li>
+						<li>Laravel</li>
+						<li>MySQL</li>
+						<li>NPM (Node Package Manager)</li>
+						</ul>
+						<p>Com o Projeto em baixado sera necessario os seguintes comandos para roda-lo</p>
+						<ul>
+							<li> Composer i</li>
+							<li>Npm i</li>
+							<li>php artisan migrate - ( tendo em vista que é ncessario já ter a tabela configurada no .env )</li>
+							<li>php artisan server</li>
+						</ul>
 					</li>
 					
 					<li class="tab-content tab-content-3 typography">
-						<h1>Albert Einstein</h1>
-						<p>German-born theoretical physicist who developed the general theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). While best known for his mass–energy equivalence formula E = mc2 (which has been dubbed "the world's most famous equation"), he received the 1921 Nobel Prize in Physics "for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect". The latter was pivotal in establishing quantum theory.</p>
-						<p>Near the beginning of his career, Einstein thought that Newtonian mechanics was no longer enough to reconcile the laws of classical mechanics with the laws of the electromagnetic field. This led to the development of his special theory of relativity. He realized, however, that the principle of relativity could also be extended to gravitational fields, and with his subsequent theory of gravitation in 1916, he published a paper on the general theory of relativity.</p>
-						<p class="text-right"><em>Find out more about Albert Einstein from <a href="http://en.wikipedia.org/wiki/Albert_Einstein" target="_blank">Wikipedia</a>.</em></p>				
+						<h1>Caso não tenha um dos Requisitos</h1>
+						<ul>
+							<li>Como Instalar o PHP - <a href=""> YOUTUBE </a></li>
+							<li>Como instalar o Composer <a href="">YOUTUBE</a></li>
+							<li>Como instalar MySQL <a href="">YOUTUBE</a></li>
+							<li>Como instalar o Npm <a href="">YOUTUBE</a></li>
+						</ul>
 					</li>
 					
 					<li class="tab-content tab-content-last typography">
 						<div class="typography">
-							<h1>Isaac Newton</h1>
-							<p>English physicist and mathematician who is widely regarded as one of the most influential scientists of all time and as a key figure in the scientific revolution. His book Philosophiæ Naturalis Principia Mathematica ("Mathematical Principles of Natural Philosophy"), first published in 1687, laid the foundations for most of classical mechanics. Newton also made seminal contributions to optics and shares credit with Gottfried Leibniz for the invention of the infinitesimal calculus.</p>
-							<p>Newton's Principia formulated the laws of motion and universal gravitation that dominated scientists' view of the physical universe for the next three centuries. It also demonstrated that the motion of objects on the Earth and that of celestial bodies could be described by the same principles. By deriving Kepler's laws of planetary motion from his mathematical description of gravity, Newton removed the last doubts about the validity of the heliocentric model of the cosmos.</p>
-						<p class="text-right"><em>Find out more about Isaac Newton from <a href="http://en.wikipedia.org/wiki/Isaac_Newton" target="_blank">Wikipedia</a>.</em></p>		
+							<h1>Integrantes do Grupo:</h1>
+							<ul>
+								<li>Leonardo O. Alves - <a href="https://www.linkedin.com/in/leonardo-alves-4691b2269/"target="_blank">LinkedIn</a> </li>
+								<li>Lucas de França Neves - <a href="https://www.linkedin.com/in/lucas-nev/" target="_blank">LinkedIn </a></li>
+								<li>Fábio Costa Camargo -  <a href="https://www.linkedin.com/in/fabio-costa-camargo/" target="_blank"> LinkedIn </a></li>
+								<li>Fabiano Rodrigues Leite - <a href="https://www.linkedin.com/in/fabiano-rodrigues-leite-820855179/" target="_blank"> LinkedIn </a></li>
+								<li>Jonathan Diniz <a href="https://www.linkedin.com/in/jonathandiniz/">LinkedIn</a></li>
+								<li>Vitor Hugo Weber Barbosa <a href="https://www.linkedin.com/in/vitor-weber-65703b270/" target="_blank">LinkedIn </li>
+							</ul>
 						</div>
 					</li>
 				</ul>
